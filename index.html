@@ -1,46 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/text.css">
-</head>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-<body>
-    <!-------------------------------------------------------------------->
-    <div class="topnav" id="myTopnav">
-        <a href="#">Home</a>
-        <a href="#intro">Intro</a>
-        <a href="#vd">Video</a>
-        <a href="#members">Members</a>
-        <a style="font-size:15px;" class="icon" id="onClick">&#9776;</a>
+    <div class="jumbotron" style="background-image: url(./images/miGig.png); background-origin: center; background-position: center;background-size: cover;padding-top: 18em;">
+      <div class="container" style="background: transparent;">
+        <h1></h1>
+        <p class="text-center">Tailored for the youth</p>
+        <p class="text-center">
+          <a class="btn btn-primary btn-lg">Learn more</a>
+        </p>
+      </div>
     </div>
-    <div class="bg"></div>
-    <!----------------------Our Problem & solution-------------------------------------->
-    <div id="intro">
-        <h1 id="problemText">Youth unemployment, Why?</h1>
-        <div class="problem" id="problem"></div>
-        <h1 id="problemText">Problem Focus</h1>
-        <div class="problem" id="problemfocus"></div>
-        <h1 id="solutionText">SOLUTION</h1>
-        <div class="solution" id="solution"></div>
-    </div>
-    <img id="responsiveImg" src="images/solution/Poster1.png" width="460" height="345">
-    <img id="responsiveImg" src="images/solution/Seeker2.png" width="460" height="345">
 
-    <!--------------------------Video------------------------------------------>
-    <div id="vd">
-        <h1 id="videoText">Watch Our Video</h1>
-        <video controls>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Youth unemployment, Why?</h3>
+          <p class="lead">Although youths are understandably less economically active in the traditional sense at the onset of their eligibility to enter the labour force, employment in these formative years is nevertheless crucial for nurturing ones career development. Being young and unemployed can lead to increase in the risk of poverty, deskilling and social exclusion as well as cause loss of motivation and mental health problems.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Problem Focus</h3>
+          <p class="lead">Online Job sourcing is a problem! Inefficient, Outdated methodologies, Small target clientele SMES & Individuals barely catered for No more space for Walk-Ins Door-Door Cv in hand job Applications, waste resources Provide no guarantee Lack of Dedicated micro-job platforms Bridging the opportunity gap</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Solution</h3>
+          <p class="lead">A Convenient & efficient micro-job platform targetting persons aged 16-25 with low/medium skills Small and Medium Enterprises with temp/permanent work such as catering companies or restaurants. Users are conveniently notified of a job proposition match. Job posters can efficiently add a new job offering.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-color:#fcca59;">
+      <div class="row text-center" style="padding: 5em;">
+        <h1>Features</h1>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="col-md-4">
+            <img src="./images/solution/solu1.png">
+          </div>
+          <div class="col-md-4">
+            <img src="./images/solution/solu2.png">
+          </div>
+          <div class="col-md-4">
+            <img src="./images/solution/solu3.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-color: #e8e8e8;">
+      <!-- <div class="container"> -->
+        
+      <video controls style="width: 100%; margin: 0px; padding: 0px;background-color: #e8e8e8;">
         <source src="videos/miGiG.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
         </video>
+      <!-- </div> -->
     </div>
-    <!-------------------------------------------------------------------->
 
-    <!-------------------------------------------------------------------->
-    <script src="assets/js/utils.js"></script>
-
-</body>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>
